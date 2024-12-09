@@ -17,8 +17,8 @@ const Home = () => {
                 />
             </video>
             <div className="header-intro-details">
-                <h1>Embracing complexity to capture alpha</h1>
-                <p>since 1991.</p>
+                <h1>Turning Market Complexity into Strategic Opportunity</h1>
+                <p>since 2020.</p>
                 <a href='/strategies'>Learn More</a>
             </div>
         </div>

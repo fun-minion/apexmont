@@ -1,0 +1,78 @@
+/* Footer.css */
+.footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #343941;
+  /* Semi-transparent background */
+  color: white;
+  font-size: 14px;
+  clear: both;
+}
+
+.row {
+  max-width: 70rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .company-logo {
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      max-width: 200px;
+      height: auto;
+    }
+  }
+
+  .main-menu {
+    ul {
+      column-count: 2;
+      column-gap: 20px;
+
+      li {
+        text-decoration: none;
+        list-style: none;
+      }
+    }
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1.0rem;
+      line-height: 1.8rem;
+      color: white;
+      transition: 0.3s all linear;
+    }
+    a:hover {
+      color: #BE9A60;
+    }
+  }
+
+  .linkedin {
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.5rem;
+      transition: all 0.3s linear;
+    }
+    a:hover {
+      color: #BE9A60;
+    }
+  }
+
+  .info {
+    a {
+      text-decoration: none;
+      color: white;
+      transition: all 0.3s linear;
+    }
+    a:hover {
+      color: #BE9A60;
+    }
+  }
+}

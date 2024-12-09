@@ -8,6 +8,8 @@ import Team from "./pages/Team";
 import Strategies from './pages/Strategies';
 import Contact from "./pages/Contact";
 import Auth from './pages/Auth';
+import PrivacyPolicy from "./pages/Privacy-Policy";
+import TermsOfService from "./pages/Terms-of-Service";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/strategies" Component={Strategies} />
           <Route path="/contact" Component={Contact} />
           <Route path="/auth" Component={Auth} />
+          <Route path="/privacy-policy" Component={PrivacyPolicy} />
+          <Route path="/terms-of-service" Component={TermsOfService} />
         </Routes>
       </Router>
       <Footer />

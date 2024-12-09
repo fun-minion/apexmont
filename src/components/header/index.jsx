@@ -21,6 +21,10 @@ const Header = () => {
             name: 'Contact',
         },
         {
+            href: '/terms-of-service',
+            name: 'Terms of Service',
+        },
+        {
             href: '/auth',
             name: 'Login',
         },
