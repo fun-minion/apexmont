@@ -47,7 +47,7 @@ const Strategies = () => {
             </div>
             <div className="strategies-menu">
                 <div>
-                    <a href="strategies/" target="_self"><span>Private Investment Focus</span></a>
+                    <a href="/private-investment-focus" target="_self"><span>Private Investment Focus</span></a>
                 </div>
             </div>
             <div className="our-principles">

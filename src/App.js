@@ -11,6 +11,7 @@ import Auth from './pages/Auth';
 import PrivacyPolicy from "./pages/Privacy-Policy";
 import TermsOfService from "./pages/Terms-of-Service";
 import Disclaimer from "./pages/Disclaimer";
+import PIFocus from "./pages/Private-Investment-Focus";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/privacy-policy" Component={PrivacyPolicy} />
           <Route path="/terms-of-service" Component={TermsOfService} />
           <Route path="/disclaimer" Component={Disclaimer} />
+          <Route path="/private-investment-focus" Component={PIFocus} />
         </Routes>
       </Router>
       <Footer />
