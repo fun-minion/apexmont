@@ -3,9 +3,12 @@
   src: url('./assets/Roboto-Regular.ttf') format('truetype');
 }
 
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
 body {
   margin: 0;
-  font-family: 'MyCustonFont',
 }
 
 code {
