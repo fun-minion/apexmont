@@ -21,10 +21,6 @@ const Header = () => {
             name: 'Contact',
         },
         {
-            href: '/disclaimer',
-            name: 'Disclaimer',
-        },
-        {
             href: '/terms-of-service',
             name: 'Terms of Service',
         },

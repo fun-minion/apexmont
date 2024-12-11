@@ -20,7 +20,7 @@ const Footer = () => {
                             <li><a href='/team'>Team</a></li>
                             <li><a href='/strategies'>Strategies</a></li>
                             <li><a href='/contact'>Contact</a></li>
-                            <li><a href='/disclaimers'>Disclaimers</a></li>
+                            <li><a href='/disclaimer'>Disclaimer</a></li>
                             <li><a href='/auth'>Login</a></li>
                         </ul>
                     </div>
@@ -30,7 +30,7 @@ const Footer = () => {
                         <a href='https://www.linkedin.com/company/apexmont'><TiSocialLinkedin /></a>
                     </div>
                     <div className="info">
-                        Copyright © 2024 Apexmont.Inc. All rights reserved. | <a href='/disclaimers'>Disclaimers</a> | <a href='privacy-policy'>Privacy Policy</a>
+                        Copyright © 2024 Apexmont.Inc. All rights reserved. | <a href='/disclaimer'>Disclaimer</a> | <a href='privacy-policy'>Privacy Policy</a>
                     </div>
                 </div>
             </footer>
