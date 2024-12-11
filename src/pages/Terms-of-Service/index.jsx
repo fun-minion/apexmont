@@ -321,12 +321,14 @@ const TermsOfService = () => {
 
             <div className="block">
                 <div className="title">
-                    CHOICE OF LAW
+                    GOVERNING LAW
                 </div>
                 <div className="content">
                     <p>
-                        The Terms and Conditions shall be construed in accordance with the laws of
-                        Canada, without regard to conflict of laws principles.
+                        These Terms and Conditions are governed by and construed in accordance with
+                        the laws of both the United States and Canada, without regard to conflict of law
+                        principles. Any disputes shall be resolved in accordance with the applicable
+                        jurisdiction of either the U.S. or Canada, depending on the specific legal matter.
                     </p>
                 </div>
             </div>

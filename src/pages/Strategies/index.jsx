@@ -47,10 +47,7 @@ const Strategies = () => {
             </div>
             <div className="strategies-menu">
                 <div>
-                    <a href="/contact/" target="_self"><span>LIQUIDATING HEDGE FUNDS</span></a>
-                </div>
-                <div>
-                    <a href="strategies/private-equity/" target="_self"><span>PRIVATE EQUITY</span></a>
+                    <a href="strategies/" target="_self"><span>Private Investment Focus</span></a>
                 </div>
             </div>
             <div className="our-principles">

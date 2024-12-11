@@ -3,46 +3,18 @@ import './index.css';
 const Team = () => {
     const people = [
         {
-            img_url: 'https://yorkcapital.com/wp-content/uploads/2019/12/York30253_Zalman_Jacobs-786x786.png',
+            img_url: '/team/dino-removed.png',
             location: 'New York',
-            name: 'Zalmie Jacobs',
-            title: ['Partner', 'Head of Private Equity'],
+            name: 'Dino Mariutti',
+            title: ['Partner', 'Broad Member Executive Chairman'],
+            description: 'Dino Mariutti is the Founder and Executive Chairman of Apexmont Inc., a position he has held since founding the company in 2020. With a background in engineering and a Global MBA from University College London, Dino also holds a CPD Accredited certificate in Algorithmic Trading from Oxford’s Saïd Business School. His expertise lies in applying cutting-edge trading strategies to dynamic market environments, with a focus on driving risk-adjusted returns and capturing alpha.',
         },
         {
-            img_url: 'https://yorkcapital.com/wp-content/uploads/2020/11/Harish-786x786.png',
+            img_url: '/team/thomas-removed.png',
             location: 'New York',
-            name: 'Harish Nataraj',
-            title: ['Managing Director', 'Private Equity'],
-        },
-        {
-            img_url: 'https://yorkcapital.com/wp-content/uploads/2021/09/Pearson_Seth-786x786.png',
-            location: 'New York',
-            name: 'Seth Pearson',
-            title: ['Managing Director', 'Private Equity'],
-        },
-        {
-            img_url: 'https://yorkcapital.com/wp-content/uploads/2020/01/Shapiro_Robbie_Color-1-786x786.png',
-            location: 'New York',
-            name: 'Robbie Shapiro',
-            title: ['Partner', 'Head of Private Equity'],
-        },
-        {
-            img_url: 'https://yorkcapital.com/wp-content/uploads/2020/01/lyle-786x884.png',
-            location: 'New York',
-            name: 'Lyle Berstein',
-            title: ['Principal', 'Head of Private Equity'],
-        },
-        {
-            img_url: 'https://yorkcapital.com/wp-content/uploads/2020/01/NgoRodman_Color-1-786x786.png',
-            location: 'New York',
-            name: 'Rodman Ngo',
-            title: ['Principal', 'Head of Private Equity'],
-        },
-        {
-            img_url: 'https://yorkcapital.com/wp-content/uploads/2020/05/Robert_Lo_Col-786x786.png',
-            location: 'New York',
-            name: 'Tom Mara',
-            title: ['Senior Advisor', 'Private Equity', 'Member of the Investment'],
+            name: 'Dr. Thomas Larder',
+            title: ['Partner', 'Broad Member'],
+            description: 'Dr. Thomas Larder is an Advisor, Board Member and shareholder of Apexmont Inc. since 2020. Tom has a background in healthcare (Tufts University/Boston), relationship building and financial services (Investment/Insurance). He has a reputation of fairness, transparency, and accountability that fellow business people and directors have all come to admire. His main areas of interest are strategic planning, high level oversight, privacy issues and innovation.',
         },
     ]
 
@@ -65,6 +37,7 @@ const Team = () => {
                                             return <h3 key={index}>{title}</h3>
                                         })
                                     }
+                                    <h4>{person.description}</h4>
                                 </div>
                             )
                         })

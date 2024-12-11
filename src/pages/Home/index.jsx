@@ -12,7 +12,7 @@ const Home = () => {
                 data-object-fit="cover"
             >
                 <source
-                    src="https://yorkcapital.com/wp-content/uploads/2019/12/YORK_Home_Banner_HR.mp4"
+                    src='https://mega.nz/file/GdsxVJaY#Tjjex4EBeJQo0iVm06GgnJdajW2cxaJeoLXAxmXvF80'
                     type="video/mp4"
                 />
             </video>

@@ -67,9 +67,10 @@
 }
 
 .header-intro-details::after {
-    content: url('../../assets/line-bg.svg');
+    content: url('../../assets/logo.png');
     position: absolute;
     top: -2.5rem;
     right: -24px;
     z-index: 1;
+    mask-image: linear-gradient(to bottom, black, transparent);
 }

@@ -36,7 +36,7 @@
     position: relative;
     width: 100%;
     cursor: pointer;
-    object-fit: cover;
+    object-fit: contain;
     object-position: top;
     height: 19rem;
     filter: grayscale(100%);
@@ -73,4 +73,14 @@
     font-size: 0.9375rem;
     line-height: 1.1875rem;
     margin: 0;
+}
+
+.single-member h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #575757;
+    font-size: 0.9375rem;
+    line-height: 1.1875rem;
+    margin: 0;
+    padding-top: 10px;
 }
