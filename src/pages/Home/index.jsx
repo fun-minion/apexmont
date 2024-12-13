@@ -1,5 +1,7 @@
 import './index.css';
 
+import video from '../../assets/background.mp4';
+
 const Home = () => {
     return (
         <div className='home'>
@@ -12,7 +14,7 @@ const Home = () => {
                 data-object-fit="cover"
             >
                 <source
-                    src='https://yorkcapital.com/wp-content/uploads/2019/12/YORK_Home_Banner_HR.mp4'
+                    src={video}
                     type="video/mp4"
                 />
             </video>
