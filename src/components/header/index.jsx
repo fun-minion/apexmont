@@ -40,7 +40,7 @@ const Header = () => {
                     {
                         menu.map((m, index) => {
                             return <li key={index} className={m.href === window.location.pathname && 'activeMenu'}>
-                                <a href={m.href} style={{ color: isHome ? 'white' : '#575757' }}>
+                                <a href={m.href} style={{ color: 'white' }}>
                                     {m.name}
                                 </a>
                             </li>
