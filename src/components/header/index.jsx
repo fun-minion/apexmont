@@ -31,7 +31,7 @@ const Header = () => {
     ]
 
     return (
-        <div className='header' style={{ background: isHome ? 'rgba(66, 82, 110, 0.6)' : '#42526E' }}>
+        <div className='header' style={{ background: isHome ? 'rgba(66, 82, 110, 0.6)' : '#273041' }}>
             <div className='logo'>
                 <img src={logo} />
             </div>
